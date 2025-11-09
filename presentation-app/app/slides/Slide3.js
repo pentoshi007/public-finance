@@ -144,7 +144,7 @@ export default function Slide3() {
           fontFamily: "'Montserrat', sans-serif",
           fontWeight: 700,
           color: '#1e40af',
-          fontSize: '2rem',
+          fontSize: '2.2rem',
           borderBottom: '3px solid #1e40af',
           paddingBottom: '0.5rem'
         }}>
@@ -169,27 +169,27 @@ export default function Slide3() {
         borderRadius: '8px',
         marginBottom: '12px'
       }}>
-        <div style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '0.4rem', padding: '0.3rem' }}>
-          <span style={{ color: '#2563eb', marginRight: '0.5rem', marginTop: '0.15rem', flexShrink: 0 }}>
-            ↗
+        <div style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '0.5rem', padding: '0.5rem' }}>
+          <span style={{ color: '#2563eb', marginRight: '0.75rem', marginTop: '0.25rem', flexShrink: 0 }}>
+            <i className="fas fa-arrow-trend-up"></i>
           </span>
-          <p style={{ flexGrow: 1, fontSize: '0.95rem', lineHeight: 1.4, margin: 0 }}>
+          <p style={{ flexGrow: 1, fontSize: '1.05rem', lineHeight: 1.5, margin: 0 }}>
             <strong>After 1991, the rich got much richer:</strong> The top 1%'s income share jumped from 6.2% to 22.6% - more than triple!
           </p>
         </div>
-        <div style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '0.4rem', padding: '0.3rem' }}>
-          <span style={{ color: '#2563eb', marginRight: '0.5rem', marginTop: '0.15rem', flexShrink: 0 }}>
-            💰
+        <div style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '0.5rem', padding: '0.5rem' }}>
+          <span style={{ color: '#2563eb', marginRight: '0.75rem', marginTop: '0.25rem', flexShrink: 0 }}>
+            <i className="fas fa-coins"></i>
           </span>
-          <p style={{ flexGrow: 1, fontSize: '0.95rem', lineHeight: 1.4, margin: 0 }}>
+          <p style={{ flexGrow: 1, fontSize: '1.05rem', lineHeight: 1.5, margin: 0 }}>
             <strong>Wealth gap is even worse than income gap:</strong> By 2022-23, the richest 1% owned 40% of all wealth, up from just 12.6% in 1981.
           </p>
         </div>
-        <div style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '0.4rem', padding: '0.3rem' }}>
-          <span style={{ color: '#2563eb', marginRight: '0.5rem', marginTop: '0.15rem', flexShrink: 0 }}>
-            📊
+        <div style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '0.5rem', padding: '0.5rem' }}>
+          <span style={{ color: '#2563eb', marginRight: '0.75rem', marginTop: '0.25rem', flexShrink: 0 }}>
+            <i className="fas fa-chart-pie"></i>
           </span>
-          <p style={{ flexGrow: 1, fontSize: '0.95rem', lineHeight: 1.4, margin: 0 }}>
+          <p style={{ flexGrow: 1, fontSize: '1.05rem', lineHeight: 1.5, margin: 0 }}>
             <strong>Most growth went to the top:</strong> This created what's called the "Billionaire Raj" - even more unequal than during British rule.
           </p>
         </div>

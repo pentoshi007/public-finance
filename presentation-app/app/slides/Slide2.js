@@ -3,7 +3,7 @@ import SlideWrapper from './SlideWrapper';
 export default function Slide2() {
   return (
     <SlideWrapper>
-      <div className="header" style={{ marginBottom: '1.5rem' }}>
+      <div className="header" style={{ marginBottom: '1rem' }}>
         <h1 style={{
           fontFamily: "'Montserrat', sans-serif",
           fontWeight: 700,
@@ -16,7 +16,7 @@ export default function Slide2() {
         </h1>
       </div>
       <div style={{ fontSize: '1.2rem', lineHeight: 1.6, flex: 1 }}>
-        <div style={{ marginBottom: '2rem' }}>
+        <div style={{ marginBottom: '1.5rem' }}>
           <div style={{ display: 'flex', alignItems: 'baseline', marginBottom: '1rem' }}>
             <span style={{ color: '#2563eb', marginRight: '0.75rem', flexShrink: 0 }}>
               <i className="fas fa-circle-exclamation"></i>
