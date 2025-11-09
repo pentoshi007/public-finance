@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Taxation & Income Inequality Presentation
+
+A Next.js presentation app with PowerPoint-like functionality.
+
+## Features
+
+- ✨ 10 professional slides
+- ⌨️ Keyboard navigation (Arrow keys)
+- 🖥️ Fullscreen mode (Press F)
+- 📊 Interactive charts using Chart.js
+- 🎨 Beautiful, consistent design
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+# Install dependencies
+npm install
+
+# Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Keyboard Shortcuts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **→ (Right Arrow)** or **Space**: Next slide
+- **← (Left Arrow)**: Previous slide
+- **F**: Toggle fullscreen
+- **ESC**: Exit fullscreen
 
-## Learn More
+## Presentation Mode
 
-To learn more about Next.js, take a look at the following resources:
+1. Click the "Fullscreen (F)" button or press **F**
+2. Navigate with arrow keys
+3. No UI elements visible in fullscreen - just like PowerPoint!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Slides
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Title Slide
+2. Why Income Inequality in India Matters
+3. The Growing Gap: Who Has India's Money? (with chart)
+4. How Taxes Reduce Inequality (Simple View)
+5. How India Taxes Income (2025) (with chart)
+6. How Different Countries Fix Inequality (with chart)
+7. What's Wrong with India's Tax System?
+8. What Can India Do? Simple Steps Forward
+9. Key Takeaways
+10. Conclusion
 
-## Deploy on Vercel
+## Technologies
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Next.js 16
+- React
+- Chart.js with datalabels plugin
+- Custom CSS styling
+# public-finance
