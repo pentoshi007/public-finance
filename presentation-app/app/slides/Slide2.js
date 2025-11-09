@@ -17,24 +17,24 @@ export default function Slide2() {
       </div>
       <div style={{ fontSize: '1.2rem', lineHeight: 1.6, flex: 1 }}>
         <div style={{ marginBottom: '1.5rem' }}>
-          <div style={{ display: 'flex', alignItems: 'baseline', marginBottom: '1rem' }}>
-            <span style={{ color: '#2563eb', marginRight: '0.75rem', flexShrink: 0 }}>
+          <div style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '1rem' }}>
+            <span style={{ color: '#2563eb', marginRight: '0.75rem', flexShrink: 0, marginTop: '0.25rem' }}>
               <i className="fas fa-circle-exclamation"></i>
             </span>
             <p style={{ flexGrow: 1 }}>
               <strong>Inequality</strong> is just the gap between rich and poor. When this gap gets too big, it hurts growth and creates social problems.
             </p>
           </div>
-          <div style={{ display: 'flex', alignItems: 'baseline', marginBottom: '1rem' }}>
-            <span style={{ color: '#2563eb', marginRight: '0.75rem', flexShrink: 0 }}>
+          <div style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '1rem' }}>
+            <span style={{ color: '#2563eb', marginRight: '0.75rem', flexShrink: 0, marginTop: '0.25rem' }}>
               <i className="fas fa-chart-line"></i>
             </span>
             <p style={{ flexGrow: 1 }}>
               In India, this gap has grown a lot since the 1990s reforms - now it's bigger than ever before.
             </p>
           </div>
-          <div style={{ display: 'flex', alignItems: 'baseline', marginBottom: '1rem' }}>
-            <span style={{ color: '#2563eb', marginRight: '0.75rem', flexShrink: 0 }}>
+          <div style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '1rem' }}>
+            <span style={{ color: '#2563eb', marginRight: '0.75rem', flexShrink: 0, marginTop: '0.25rem' }}>
               <i className="fas fa-scale-balanced"></i>
             </span>
             <p style={{ flexGrow: 1 }}>

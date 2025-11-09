@@ -17,32 +17,32 @@ export default function Slide9() {
       </div>
       <div style={{ fontSize: '1.2rem', lineHeight: 1.6, flex: 1 }}>
         <div style={{ marginBottom: '1.5rem' }}>
-          <div style={{ display: 'flex', alignItems: 'baseline', marginBottom: '1rem' }}>
-            <span style={{ color: '#2563eb', marginRight: '0.75rem', flexShrink: 0 }}>
+          <div style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '1rem' }}>
+            <span style={{ color: '#2563eb', marginRight: '0.75rem', flexShrink: 0, marginTop: '0.25rem' }}>
               <i className="fas fa-chart-pie"></i>
             </span>
             <p style={{ flexGrow: 1 }}>
               <strong>India has a big gap:</strong> The richest 1% own 40% of all wealth - that's way too much concentration at the top.
             </p>
           </div>
-          <div style={{ display: 'flex', alignItems: 'baseline', marginBottom: '1rem' }}>
-            <span style={{ color: '#2563eb', marginRight: '0.75rem', flexShrink: 0 }}>
+          <div style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '1rem' }}>
+            <span style={{ color: '#2563eb', marginRight: '0.75rem', flexShrink: 0, marginTop: '0.25rem' }}>
               <i className="fas fa-balance-scale"></i>
             </span>
             <p style={{ flexGrow: 1 }}>
               <strong>Smart taxes help:</strong> When rich people pay a bit more, and that money goes to good schools and hospitals, everyone wins.
             </p>
           </div>
-          <div style={{ display: 'flex', alignItems: 'baseline', marginBottom: '1rem' }}>
-            <span style={{ color: '#2563eb', marginRight: '0.75rem', flexShrink: 0 }}>
+          <div style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '1rem' }}>
+            <span style={{ color: '#2563eb', marginRight: '0.75rem', flexShrink: 0, marginTop: '0.25rem' }}>
               <i className="fas fa-exclamation-triangle"></i>
             </span>
             <p style={{ flexGrow: 1 }}>
               <strong>Current problem:</strong> We rely too much on GST (which everyone pays) and we've removed taxes on wealth (which only the rich would pay).
             </p>
           </div>
-          <div style={{ display: 'flex', alignItems: 'baseline', marginBottom: '1rem' }}>
-            <span style={{ color: '#2563eb', marginRight: '0.75rem', flexShrink: 0 }}>
+          <div style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '1rem' }}>
+            <span style={{ color: '#2563eb', marginRight: '0.75rem', flexShrink: 0, marginTop: '0.25rem' }}>
               <i className="fas fa-lightbulb"></i>
             </span>
             <p style={{ flexGrow: 1 }}>
