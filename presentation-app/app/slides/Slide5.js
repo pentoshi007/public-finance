@@ -178,24 +178,24 @@ export default function Slide5() {
         marginTop: '24px',
         marginBottom: '16px'
       }}>
-        <div style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '0.5rem', padding: '0.5rem' }}>
-          <span style={{ color: '#2563eb', marginRight: '0.75rem', marginTop: '0.25rem', flexShrink: 0 }}>
+        <div style={{ display: 'flex', alignItems: 'baseline', marginBottom: '0.5rem', padding: '0.5rem' }}>
+          <span style={{ color: '#2563eb', marginRight: '0.75rem', flexShrink: 0 }}>
             <i className="fas fa-arrow-up"></i>
           </span>
           <p style={{ flexGrow: 1, fontSize: '1.05rem', lineHeight: 1.5 }}>
             <strong>Progressive structure:</strong> Tax rates increase with income - from 0% for incomes up to ₹4 lakh to 30% for incomes above ₹24 lakh.
           </p>
         </div>
-        <div style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '0.5rem', padding: '0.5rem' }}>
-          <span style={{ color: '#2563eb', marginRight: '0.75rem', marginTop: '0.25rem', flexShrink: 0 }}>
+        <div style={{ display: 'flex', alignItems: 'baseline', marginBottom: '0.5rem', padding: '0.5rem' }}>
+          <span style={{ color: '#2563eb', marginRight: '0.75rem', flexShrink: 0 }}>
             <i className="fas fa-info-circle"></i>
           </span>
           <p style={{ flexGrow: 1, fontSize: '1.05rem', lineHeight: 1.5 }}>
             <strong>Additional charges:</strong> High earners also pay surcharge and cess on top of these base rates.
           </p>
         </div>
-        <div style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '0.5rem', padding: '0.5rem' }}>
-          <span style={{ color: '#2563eb', marginRight: '0.75rem', marginTop: '0.25rem', flexShrink: 0 }}>
+        <div style={{ display: 'flex', alignItems: 'baseline', marginBottom: '0.5rem', padding: '0.5rem' }}>
+          <span style={{ color: '#2563eb', marginRight: '0.75rem', flexShrink: 0 }}>
             <i className="fas fa-exchange-alt"></i>
           </span>
           <p style={{ flexGrow: 1, fontSize: '1.05rem', lineHeight: 1.5 }}>

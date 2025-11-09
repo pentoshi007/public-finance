@@ -17,32 +17,32 @@ export default function Slide7() {
       </div>
       <div style={{ fontSize: '1.2rem', lineHeight: 1.6, flex: 1 }}>
         <div style={{ marginBottom: '1.5rem' }}>
-          <div style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '1rem' }}>
-            <span style={{ color: '#dc2626', marginRight: '0.75rem', flexShrink: 0, fontSize: '1.2rem', marginTop: '0.25rem' }}>
+          <div style={{ display: 'flex', alignItems: 'baseline', marginBottom: '1rem' }}>
+            <span style={{ color: '#dc2626', marginRight: '0.75rem', flexShrink: 0, fontSize: '1.2rem' }}>
               <i className="fas fa-xmark"></i>
             </span>
             <p style={{ flexGrow: 1 }}>
               <strong>Too much GST:</strong> Poor people pay the same GST rate as rich people on many things - this hurts them more.
             </p>
           </div>
-          <div style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '1rem' }}>
-            <span style={{ color: '#dc2626', marginRight: '0.75rem', flexShrink: 0, fontSize: '1.2rem', marginTop: '0.25rem' }}>
+          <div style={{ display: 'flex', alignItems: 'baseline', marginBottom: '1rem' }}>
+            <span style={{ color: '#dc2626', marginRight: '0.75rem', flexShrink: 0, fontSize: '1.2rem' }}>
               <i className="fas fa-xmark"></i>
             </span>
             <p style={{ flexGrow: 1 }}>
               <strong>No wealth tax:</strong> India removed wealth tax in 2015. Now the super-rich don't pay tax on their huge property and wealth.
             </p>
           </div>
-          <div style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '1rem' }}>
-            <span style={{ color: '#dc2626', marginRight: '0.75rem', flexShrink: 0, fontSize: '1.2rem', marginTop: '0.25rem' }}>
+          <div style={{ display: 'flex', alignItems: 'baseline', marginBottom: '1rem' }}>
+            <span style={{ color: '#dc2626', marginRight: '0.75rem', flexShrink: 0, fontSize: '1.2rem' }}>
               <i className="fas fa-xmark"></i>
             </span>
             <p style={{ flexGrow: 1 }}>
               <strong>Too few pay tax:</strong> Only 2-3% of people actually pay income tax - rest either earn too little or dodge taxes.
             </p>
           </div>
-          <div style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '1rem' }}>
-            <span style={{ color: '#dc2626', marginRight: '0.75rem', flexShrink: 0, fontSize: '1.2rem', marginTop: '0.25rem' }}>
+          <div style={{ display: 'flex', alignItems: 'baseline', marginBottom: '1rem' }}>
+            <span style={{ color: '#dc2626', marginRight: '0.75rem', flexShrink: 0, fontSize: '1.2rem' }}>
               <i className="fas fa-xmark"></i>
             </span>
             <p style={{ flexGrow: 1 }}>

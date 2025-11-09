@@ -22,32 +22,32 @@ export default function Slide8() {
           gap: '1.5rem',
           marginBottom: '16px'
         }}>
-          <div style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '1.2rem' }}>
-            <span style={{ color: '#2563eb', marginRight: '0.75rem', flexShrink: 0, fontSize: '1.4rem', marginTop: '0.25rem' }}>
+          <div style={{ display: 'flex', alignItems: 'baseline', marginBottom: '1.2rem' }}>
+            <span style={{ color: '#2563eb', marginRight: '0.75rem', flexShrink: 0, fontSize: '1.4rem' }}>
               <i className="fas fa-chart-line"></i>
             </span>
             <p style={{ flexGrow: 1 }}>
               <strong>Tax the super-rich more</strong>. The top rates work best to reduce the gap. Add a bit more tax just for the wealthiest people.
             </p>
           </div>
-          <div style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '1.2rem' }}>
-            <span style={{ color: '#2563eb', marginRight: '0.75rem', flexShrink: 0, fontSize: '1.4rem', marginTop: '0.25rem' }}>
+          <div style={{ display: 'flex', alignItems: 'baseline', marginBottom: '1.2rem' }}>
+            <span style={{ color: '#2563eb', marginRight: '0.75rem', flexShrink: 0, fontSize: '1.4rem' }}>
               <i className="fas fa-landmark"></i>
             </span>
             <p style={{ flexGrow: 1 }}>
               <strong>Bring back wealth taxes</strong> with better tech. This helps with the fact that 1% of people own 40% of all wealth in India.
             </p>
           </div>
-          <div style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '1.2rem' }}>
-            <span style={{ color: '#2563eb', marginRight: '0.75rem', flexShrink: 0, fontSize: '1.4rem', marginTop: '0.25rem' }}>
+          <div style={{ display: 'flex', alignItems: 'baseline', marginBottom: '1.2rem' }}>
+            <span style={{ color: '#2563eb', marginRight: '0.75rem', flexShrink: 0, fontSize: '1.4rem' }}>
               <i className="fas fa-shopping-cart"></i>
             </span>
             <p style={{ flexGrow: 1 }}>
               <strong>Keep GST low on basics</strong>. Food and medicine should stay at 0-5% so poor families aren't hurt by these taxes.
             </p>
           </div>
-          <div style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '1.2rem' }}>
-            <span style={{ color: '#2563eb', marginRight: '0.75rem', flexShrink: 0, fontSize: '1.4rem', marginTop: '0.25rem' }}>
+          <div style={{ display: 'flex', alignItems: 'baseline', marginBottom: '1.2rem' }}>
+            <span style={{ color: '#2563eb', marginRight: '0.75rem', flexShrink: 0, fontSize: '1.4rem' }}>
               <i className="fas fa-expand-arrows-alt"></i>
             </span>
             <p style={{ flexGrow: 1 }}>

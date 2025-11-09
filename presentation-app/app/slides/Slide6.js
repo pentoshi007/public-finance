@@ -192,24 +192,24 @@ export default function Slide6() {
         borderRadius: '8px',
         marginBottom: '16px'
       }}>
-        <div style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '0.5rem', padding: '0.5rem' }}>
-          <span style={{ color: '#2563eb', marginRight: '0.75rem', marginTop: '0.25rem', flexShrink: 0 }}>
+        <div style={{ display: 'flex', alignItems: 'baseline', marginBottom: '0.5rem', padding: '0.5rem' }}>
+          <span style={{ color: '#2563eb', marginRight: '0.75rem', flexShrink: 0 }}>
             <i className="fas fa-check-circle"></i>
           </span>
           <p style={{ flexGrow: 1, fontSize: '1.05rem', lineHeight: 1.5 }}>
             <strong>Look at Belgium vs Chile:</strong> Belgium cuts inequality by 25 points, while Chile barely changes it (just 1 point).
           </p>
         </div>
-        <div style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '0.5rem', padding: '0.5rem' }}>
-          <span style={{ color: '#2563eb', marginRight: '0.75rem', marginTop: '0.25rem', flexShrink: 0 }}>
+        <div style={{ display: 'flex', alignItems: 'baseline', marginBottom: '0.5rem', padding: '0.5rem' }}>
+          <span style={{ color: '#2563eb', marginRight: '0.75rem', flexShrink: 0 }}>
             <i className="fas fa-landmark"></i>
           </span>
           <p style={{ flexGrow: 1, fontSize: '1.05rem', lineHeight: 1.5 }}>
             <strong>Rich countries do better:</strong> Countries that collect more taxes and spend on social programs reduce inequality more.
           </p>
         </div>
-        <div style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '0.5rem', padding: '0.5rem' }}>
-          <span style={{ color: '#2563eb', marginRight: '0.75rem', marginTop: '0.25rem', flexShrink: 0 }}>
+        <div style={{ display: 'flex', alignItems: 'baseline', marginBottom: '0.5rem', padding: '0.5rem' }}>
+          <span style={{ color: '#2563eb', marginRight: '0.75rem', flexShrink: 0 }}>
             <i className="fas fa-flag"></i>
           </span>
           <p style={{ flexGrow: 1, fontSize: '1.05rem', lineHeight: 1.5 }}>
