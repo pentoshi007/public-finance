@@ -14,15 +14,7 @@ export default function SlideWrapper({ children, bgColor = '#f8fafc' }) {
       padding: '40px',
       boxSizing: 'border-box'
     }}>
-      <div style={{
-        width: '100%',
-        height: '100%',
-        overflow: 'auto',
-        display: 'flex',
-        flexDirection: 'column'
-      }}>
-        {children}
-      </div>
+      {children}
     </div>
   );
 }

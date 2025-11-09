@@ -3,7 +3,7 @@ import SlideWrapper from './SlideWrapper';
 export default function Slide9() {
   return (
     <SlideWrapper>
-      <div className="header" style={{ marginBottom: '1.5rem' }}>
+      <div className="header" style={{ marginBottom: '1rem' }}>
         <h1 style={{
           fontFamily: "'Montserrat', sans-serif",
           fontWeight: 700,
@@ -16,10 +16,10 @@ export default function Slide9() {
         </h1>
       </div>
       <div style={{ fontSize: '1.2rem', lineHeight: 1.6, flex: 1 }}>
-        <div style={{ marginBottom: '2rem' }}>
+        <div style={{ marginBottom: '1.5rem' }}>
           <div style={{ display: 'flex', alignItems: 'baseline', marginBottom: '1rem' }}>
             <span style={{ color: '#2563eb', marginRight: '0.75rem', flexShrink: 0 }}>
-              📊
+              <i className="fas fa-chart-pie"></i>
             </span>
             <p style={{ flexGrow: 1 }}>
               <strong>India has a big gap:</strong> The richest 1% own 40% of all wealth - that's way too much concentration at the top.
@@ -27,7 +27,7 @@ export default function Slide9() {
           </div>
           <div style={{ display: 'flex', alignItems: 'baseline', marginBottom: '1rem' }}>
             <span style={{ color: '#2563eb', marginRight: '0.75rem', flexShrink: 0 }}>
-              ⚖️
+              <i className="fas fa-balance-scale"></i>
             </span>
             <p style={{ flexGrow: 1 }}>
               <strong>Smart taxes help:</strong> When rich people pay a bit more, and that money goes to good schools and hospitals, everyone wins.
@@ -35,7 +35,7 @@ export default function Slide9() {
           </div>
           <div style={{ display: 'flex', alignItems: 'baseline', marginBottom: '1rem' }}>
             <span style={{ color: '#2563eb', marginRight: '0.75rem', flexShrink: 0 }}>
-              ⚠️
+              <i className="fas fa-exclamation-triangle"></i>
             </span>
             <p style={{ flexGrow: 1 }}>
               <strong>Current problem:</strong> We rely too much on GST (which everyone pays) and we've removed taxes on wealth (which only the rich would pay).
@@ -43,7 +43,7 @@ export default function Slide9() {
           </div>
           <div style={{ display: 'flex', alignItems: 'baseline', marginBottom: '1rem' }}>
             <span style={{ color: '#2563eb', marginRight: '0.75rem', flexShrink: 0 }}>
-              💡
+              <i className="fas fa-lightbulb"></i>
             </span>
             <p style={{ flexGrow: 1 }}>
               <strong>Way forward:</strong> Make income tax fairer at the top, bring back simple wealth taxes, and spend the money on things that help everyone.
@@ -55,7 +55,7 @@ export default function Slide9() {
           borderLeft: '5px solid #2563eb',
           padding: '24px',
           borderRadius: '8px',
-          marginBottom: '24px'
+          marginBottom: '16px'
         }}>
           <p style={{ textAlign: 'center', fontWeight: 600, fontSize: '1.1rem', marginBottom: '0.5rem' }}>
             What Works?

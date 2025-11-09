@@ -3,7 +3,7 @@ import SlideWrapper from './SlideWrapper';
 export default function Slide7() {
   return (
     <SlideWrapper>
-      <div className="header" style={{ marginBottom: '1.5rem' }}>
+      <div className="header" style={{ marginBottom: '1rem' }}>
         <h1 style={{
           fontFamily: "'Montserrat', sans-serif",
           fontWeight: 700,
@@ -16,10 +16,10 @@ export default function Slide7() {
         </h1>
       </div>
       <div style={{ fontSize: '1.2rem', lineHeight: 1.6, flex: 1 }}>
-        <div style={{ marginBottom: '2rem' }}>
+        <div style={{ marginBottom: '1.5rem' }}>
           <div style={{ display: 'flex', alignItems: 'baseline', marginBottom: '1rem' }}>
             <span style={{ color: '#dc2626', marginRight: '0.75rem', flexShrink: 0, fontSize: '1.2rem' }}>
-              ✗
+              <i className="fas fa-xmark"></i>
             </span>
             <p style={{ flexGrow: 1 }}>
               <strong>Too much GST:</strong> Poor people pay the same GST rate as rich people on many things - this hurts them more.
@@ -27,7 +27,7 @@ export default function Slide7() {
           </div>
           <div style={{ display: 'flex', alignItems: 'baseline', marginBottom: '1rem' }}>
             <span style={{ color: '#dc2626', marginRight: '0.75rem', flexShrink: 0, fontSize: '1.2rem' }}>
-              ✗
+              <i className="fas fa-xmark"></i>
             </span>
             <p style={{ flexGrow: 1 }}>
               <strong>No wealth tax:</strong> India removed wealth tax in 2015. Now the super-rich don't pay tax on their huge property and wealth.
@@ -35,7 +35,7 @@ export default function Slide7() {
           </div>
           <div style={{ display: 'flex', alignItems: 'baseline', marginBottom: '1rem' }}>
             <span style={{ color: '#dc2626', marginRight: '0.75rem', flexShrink: 0, fontSize: '1.2rem' }}>
-              ✗
+              <i className="fas fa-xmark"></i>
             </span>
             <p style={{ flexGrow: 1 }}>
               <strong>Too few pay tax:</strong> Only 2-3% of people actually pay income tax - rest either earn too little or dodge taxes.
@@ -43,7 +43,7 @@ export default function Slide7() {
           </div>
           <div style={{ display: 'flex', alignItems: 'baseline', marginBottom: '1rem' }}>
             <span style={{ color: '#dc2626', marginRight: '0.75rem', flexShrink: 0, fontSize: '1.2rem' }}>
-              ✗
+              <i className="fas fa-xmark"></i>
             </span>
             <p style={{ flexGrow: 1 }}>
               <strong>Big businesses get breaks:</strong> Many big companies pay less tax than they should because of special deals and loopholes.
